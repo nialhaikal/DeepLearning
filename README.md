@@ -1,2 +1,4 @@
 # DeepLearning
 Animal Image Classification with CNN &amp; MobileNet
+
+This project implements an end-to-end image classification pipeline to distinguish between four animal classes: cats, dogs, rabbits, and chickens. Built using Python and TensorFlow/Keras, the system compares two distinct deep learning architectures: a custom Convolutional Neural Network (CNN) and a Transfer Learning model based on MobileNet. The workflow includes automated dataset preprocessing with stratified train/test splitting (80/20), model training, and a rigorous evaluation script. Key features include side-by-side performance visualization using confusion matrices and heatmaps, allowing for a direct comparison between the lightweight custom CNN and the robust pre-trained MobileNet in accurately predicting animal categories.
